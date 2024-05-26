@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://65designs.com/wp-content/uploads/2020/07/crop.jpg);
+}
+.label{
+    display:flex;
+    flex-direction: row;
+    font-size: x-large;
+    color: azure;
+    width: 250px;
+    padding:25px
+}
+#submit{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    padding: 10px 20px;
+    justify-content: flex-end;
+    
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(21, 20, 20);
+    background-color: white;
+    font-size: 25px;
+}
+.nav2{
+    display: flex;flex-direction:column;
+    font-size:25px ;
+
+
+}
+button{
+    background-color: blue;
+    outline: 2px solid white;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+
+}.label input{
+    outline: 2px solid black
+}

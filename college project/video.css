@@ -1,0 +1,78 @@
+#button
+{
+    background:blue;
+    color: white;
+    
+    
+}
+.search-box{
+    width: 200px;
+    
+    background: #fff;
+    margin: 50px auto 0;
+    border-radius: 15px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 10px;
+    
+}
+input{
+    flex: 1;
+    height: 20px;
+    background:rgb(230, 221, 222);
+    border: 15px;
+    outline: 5px;
+    font-size: 18px;
+    color:black
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(21, 20, 20);
+    background-color:black;
+     height: 50px;
+    font-size: 25px;
+    
+    
+
+
+}
+.navbar a{
+    color:#fff;
+}
+.iframes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding-left:  50px; ;
+    
+    
+    
+
+}
+.flex-box{
+    display: flex;
+    margin: 70px;
+justify-content: center;
+
+
+
+
+
+}
+.image{
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/57a805b1-b8a9-427d-a2ad-b41061ec7a94/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=5de6ea12428dd33982958e770c873d3c);
+    
+}
+#button i{
+    width: 25px;
+    height: 25px;
+}
